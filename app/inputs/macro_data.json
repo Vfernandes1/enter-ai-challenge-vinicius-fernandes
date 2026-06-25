@@ -1,0 +1,14 @@
+{
+  "xp_macro": {
+    "cpi_2025": 6.1,
+    "selic_terminal_2025": 15.5,
+    "pib_2025": 2.0,
+    "usd_2025": 6.2,
+    "scenario": "Economia em desaceleração com inflação pressionada e juros altos. Dívida pública em aceleração e ambiente global de inflação persistente nos EUA.",
+    "guidelines": [
+      "Basear recomendações estritamente nas projeções de fevereiro de 2025 da XP.",
+      "Não utilizar cortes de juros nos EUA nem previsões de Selic abaixo de 15,50%.",
+      "Manter foco em produtos autorizados para perfil moderado: ações consolidadas, renda fixa de qualidade e fundos com gestão disciplinada."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "client_name": "Albert da Silva",
+  "total_invested": 386858.82,
+  "available_balance": 74672.62,
+  "risk_profile": "Moderado: busca crescimento marginal, aceita risco médio, foco em dividendos e crédito BB+.",
+  "allocation": {
+    "Ações": 0.1932,
+    "Fundos": 0.6771,
+    "Renda Fixa": 0.1297
+  },
+  "holdings": [
+    {"ticker": "LREN3", "name": "Lojas Renner", "classe": "Ações", "current_value": 27812.04, "reported_return": -0.417},
+    {"ticker": "MRFG3", "name": "Marfrig", "classe": "Ações", "current_value": 15432.89, "reported_return": 0.435},
+    {"ticker": "ARZZ3", "name": "Arezzo&Co", "classe": "Ações", "current_value": 10923.72, "reported_return": -0.3105},
+    {"ticker": "HAPV3", "name": "Hapvida", "classe": "Ações", "current_value": 6143.14, "reported_return": -0.7458},
+    {"ticker": "Riza Lotus Plus", "name": "Riza Lotus Plus Advisory FIC FIRF REF DI CP", "classe": "Fundos", "current_value": 96178.73, "reported_return": 0.1551},
+    {"ticker": "Brave I", "name": "Brave I FIC FIM CP", "classe": "Fundos", "current_value": 72567.43, "reported_return": 0.1908},
+    {"ticker": "Trend Investback", "name": "Trend Investback FIC FIRF Simples", "classe": "Fundos", "current_value": 305.44, "reported_return": 0.1601},
+    {"ticker": "Truxt Long Bias", "name": "Truxt Long Bias Advisory FIC FIM", "classe": "Fundos", "current_value": 12522.05, "reported_return": -0.1213},
+    {"ticker": "STK Long Biased", "name": "STK Long Biased FIC FIA", "classe": "Fundos", "current_value": 9745.97, "reported_return": -0.1451},
+    {"ticker": "Constellation", "name": "Constellation Institucional Advisory FIC FIA", "classe": "Fundos", "current_value": 8475.02, "reported_return": -0.2566},
+    {"ticker": "Ibiuna Hedge ST", "name": "Ibiuna Hedge ST Advisory FIC FIM", "classe": "Fundos", "current_value": 11601.02, "reported_return": 0.3374},
+    {"ticker": "CDB Banco C6", "name": "CDB BANCO C6 CONSIGNADO S.A. - SET/2024", "classe": "Renda Fixa", "current_value": 40478.75, "reported_return": 0.349}
+  ]
+}

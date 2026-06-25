@@ -1,0 +1,46 @@
+{
+  "name": "XP_Monthly_Report_Rivet_Simulation",
+  "description": "Structured record of nodes, prompt templates and produced artifacts for reproducibility.",
+  "nodes": [
+    {
+      "name": "IngestPortfolio",
+      "prompt_template": "Ingest client data from {client_data_path}",
+      "produced_output_keys": [
+        "client_data"
+      ]
+    },
+    {
+      "name": "QuantMetrics",
+      "prompt_template": "Compute monthly returns and benchmarks",
+      "produced_output_keys": [
+        "portfolio_metrics"
+      ]
+    },
+    {
+      "name": "ResearchMacro",
+      "prompt_template": "Analyze macro impact using XP projections",
+      "produced_output_keys": [
+        "macro_impact"
+      ]
+    },
+    {
+      "name": "AdvisorRecommendations",
+      "prompt_template": "Generate buy/sell/hold recommendations for profile: Moderado",
+      "produced_output_keys": [
+        "recommendations"
+      ]
+    },
+    {
+      "name": "FormatLetter",
+      "prompt_template": "Draft final letter in Portuguese, 2 pages max",
+      "produced_output_keys": [
+        "final_letter_path",
+        "final_letter"
+      ]
+    }
+  ],
+  "artifacts": {
+    "logs": "/home/vfernandes1/coding/enter-ai-challenge-vinicius-fernandes/rivet_workflow/simulated_rivet_logs.json",
+    "final_letter_md": "/home/vfernandes1/coding/enter-ai-challenge-vinicius-fernandes/rivet_workflow/simulated_rivet_output.md"
+  }
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "node": "IngestPortfolio",
+    "output": {
+      "client_data": {
+        "client_name": "Albert da Silva",
+        "total_invested": 386858.82,
+        "available_balance": 74672.62,
+        "risk_profile": "Moderado: busca crescimento marginal, aceita risco médio, foco em dividendos e crédito BB+.",
+        "allocation": {
+          "Ações": 0.1932,
+          "Fundos": 0.6771,
+          "Renda Fixa": 0.1297
+        },
+        "holdings": [
+          {
+            "ticker": "LREN3",
+            "name": "Lojas Renner",
+            "classe": "Ações",
+            "current_value": 27812.04,
+            "reported_return": -0.417
+          },
+          {
+            "ticker": "MRFG3",
+            "name": "Marfrig",
+            "classe": "Ações",
+            "current_value": 15432.89,
+            "reported_return": 0.435
+          },
+          {
+            "ticker": "ARZZ3",
+            "name": "Arezzo&Co",
+            "classe": "Ações",
+            "current_value": 10923.72,
+            "reported_return": -0.3105
+          },
+          {
+            "ticker": "HAPV3",
+            "name": "Hapvida",
+            "classe": "Ações",
+            "current_value": 6143.14,
+            "reported_return": -0.7458
+          },
+          {
+            "ticker": "Riza Lotus Plus",
+            "name": "Riza Lotus Plus Advisory FIC FIRF REF DI CP",
+            "classe": "Fundos",
+            "current_value": 96178.73,
+            "reported_return": 0.1551
+          },
+          {
+            "ticker": "Brave I",
+            "name": "Brave I FIC FIM CP",
+            "classe": "Fundos",
+            "current_value": 72567.43,
+            "reported_return": 0.1908
+          },
+          {
+            "ticker": "Trend Investback",
+            "name": "Trend Investback FIC FIRF Simples",
+            "classe": "Fundos",
+            "current_value": 305.44,
+            "reported_return": 0.1601
+          },
+          {
+            "ticker": "Truxt Long Bias",
+            "name": "Truxt Long Bias Advisory FIC FIM",
+            "classe": "Fundos",
+            "current_value": 12522.05,
+            "reported_return": -0.1213
+          },
+          {
+            "ticker": "STK Long Biased",
+            "name": "STK Long Biased FIC FIA",
+            "classe": "Fundos",
+            "current_value": 9745.97,
+            "reported_return": -0.1451
+          },
+          {
+            "ticker": "Constellation",
+            "name": "Constellation Institucional Advisory FIC FIA",
+            "classe": "Fundos",
+            "current_value": 8475.02,
+            "reported_return": -0.2566
+          },
+          {
+            "ticker": "Ibiuna Hedge ST",
+            "name": "Ibiuna Hedge ST Advisory FIC FIM",
+            "classe": "Fundos",
+            "current_value": 11601.02,
+            "reported_return": 0.3374
+          },
+          {
+            "ticker": "CDB Banco C6",
+            "name": "CDB BANCO C6 CONSIGNADO S.A. - SET/2024",
+            "classe": "Renda Fixa",
+            "current_value": 40478.75,
+            "reported_return": 0.349
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": "QuantMetrics",
+    "output": {
+      "portfolio_metrics": {
+        "monthly_return": 0.09253425700111025,
+        "portfolio_value": 312186.19999999995,
+        "class_returns": {
+          "Ações": {
+            "value": 60311.79,
+            "weighted_return": -12857.682402,
+            "share": 0.19319172340097035,
+            "return": -0.21318688107250672
+          },
+          "Fundos": {
+            "value": 211395.65999999995,
+            "weighted_return": 27618.516714999998,
+            "share": 0.6771460750026747,
+            "return": 0.13064845661921348
+          },
+          "Renda Fixa": {
+            "value": 40478.75,
+            "weighted_return": 14127.08375,
+            "share": 0.12966220159635503,
+            "return": 0.349
+          }
+        }
+      }
+    }
+  },
+  {
+    "node": "ResearchMacro",
+    "output": {
+      "macro_impact": {
+        "summary": "O cenário XP indica juros elevados, inflação persistente e crescimento econômico moderado.",
+        "risks": [
+          "Ativos de renda variável com alavancagem ou que dependem de redução de juros podem sofrer volatilidade adicional.",
+          "O crescimento econômico moderado reduz o apetite por risco e pode limitar a recuperação de ações cíclicas.",
+          "Posições de ações mais voláteis como LREN3, ARZZ3, HAPV3 exigem atenção extra em um cenário de juros altos."
+        ],
+        "opportunities": [
+          "A taxa Selic alta fortalece a renda fixa de qualidade e pressiona o crédito corporativo mais arriscado.",
+          "Empresas com receitas em dólar ou fluxos de exportação podem se beneficiar do câmbio mais elevado."
+        ],
+        "official_projection": {
+          "cpi_2025": 6.1,
+          "selic_terminal_2025": 15.5,
+          "pib_2025": 2.0,
+          "usd_2025": 6.2,
+          "scenario": "Economia em desaceleração com inflação pressionada e juros altos. Dívida pública em aceleração e ambiente global de inflação persistente nos EUA.",
+          "guidelines": [
+            "Basear recomendações estritamente nas projeções de fevereiro de 2025 da XP.",
+            "Não utilizar cortes de juros nos EUA nem previsões de Selic abaixo de 15,50%.",
+            "Manter foco em produtos autorizados para perfil moderado: ações consolidadas, renda fixa de qualidade e fundos com gestão disciplinada."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "node": "AdvisorRecommendations",
+    "output": {
+      "recommendations": [
+        "Manter a alocação principal em fundos e renda fixa, ajustando posições de maior risco em ações.",
+        "Considerar reduzir exposição em LREN3 (Lojas Renner) por seu desempenho fraco e maior volatilidade.",
+        "Aproveitar parte da alta de MRFG3 para rebalancear e preservar ganhos, mantendo exposição moderada.",
+        "Considerar reduzir exposição em ARZZ3 (Arezzo&Co) por seu desempenho fraco e maior volatilidade.",
+        "Considerar reduzir exposição em HAPV3 (Hapvida) por seu desempenho fraco e maior volatilidade.",
+        "Reforçar a exposição em renda fixa de alta qualidade, especialmente títulos indexados ao CDI ou crédito com rating BB+ ou superior.",
+        "Evitar alterações bruscas de curto prazo e focar no médio prazo, como exige o perfil moderado."
+      ]
+    }
+  },
+  {
+    "node": "FormatLetter",
+    "output": {
+      "final_letter_path": "/home/vfernandes1/coding/enter-ai-challenge-vinicius-fernandes/rivet_workflow/simulated_rivet_output.md",
+      "final_letter": "São Paulo, 24/06/2026\n\nPrezado Sr. Albert da Silva,\n\nSegue o relatório mensal da sua carteira. Nosso objetivo é traduzir o desempenho e os impactos macroeconômicos em decisões práticas para o seu perfil moderado.\n\n1. Desempenho da carteira\nSua carteira apresentou uma rentabilidade estimada de 9.25% no último mês, contra um CDI de 3.70% e inflação referência de 6.10%.\nO valor de mercado estimado da carteira é de R$ 312186.20.\n\n2. Como o cenário macro impacta sua carteira\nO cenário XP aponta Selic em 15,50%, IPCA em 6,1% e câmbio projetado de R$ 6,20 para 2025.\nResumo: O cenário XP indica juros elevados, inflação persistente e crescimento econômico moderado.\nOportunidades identificadas:\n- A taxa Selic alta fortalece a renda fixa de qualidade e pressiona o crédito corporativo mais arriscado.\n- Empresas com receitas em dólar ou fluxos de exportação podem se beneficiar do câmbio mais elevado.\nRiscos relevantes:\n- Ativos de renda variável com alavancagem ou que dependem de redução de juros podem sofrer volatilidade adicional.\n- O crescimento econômico moderado reduz o apetite por risco e pode limitar a recuperação de ações cíclicas.\n- Posições de ações mais voláteis como LREN3, ARZZ3, HAPV3 exigem atenção extra em um cenário de juros altos.\n\n3. Ajustes recomendados para o seu perfil\nCom base no perfil moderado, o foco é estabilidade e preservação do poder de compra, sem abrir mão de crescimento moderado.\n- Manter a alocação principal em fundos e renda fixa, ajustando posições de maior risco em ações.\n- Considerar reduzir exposição em LREN3 (Lojas Renner) por seu desempenho fraco e maior volatilidade.\n- Aproveitar parte da alta de MRFG3 para rebalancear e preservar ganhos, mantendo exposição moderada.\n- Considerar reduzir exposição em ARZZ3 (Arezzo&Co) por seu desempenho fraco e maior volatilidade.\n- Considerar reduzir exposição em HAPV3 (Hapvida) por seu desempenho fraco e maior volatilidade.\n- Reforçar a exposição em renda fixa de alta qualidade, especialmente títulos indexados ao CDI ou crédito com rating BB+ ou superior.\n- Evitar alterações bruscas de curto prazo e focar no médio prazo, como exige o perfil moderado.\n\n4. Observações finais\nRecomendamos revisar essas posições no próximo ciclo mensal e validar quaisquer movimentações com seu assessor antes de executar ordens.\n\nAtenciosamente,\nAntonio Bicudo\nAssessor Financeiro XP"
+    }
+  }
+]

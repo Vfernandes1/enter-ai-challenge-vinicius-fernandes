@@ -1,0 +1,37 @@
+name: XP_Monthly_Report_Workflow
+nodes:
+  - id: ingest
+    type: ingest
+    name: IngestPortfolio
+    description: Load client and portfolio data
+  - id: quant
+    type: compute
+    name: QuantMetrics
+    description: Compute monthly returns and class-level metrics
+  - id: research
+    type: llm
+    name: ResearchMacro
+    description: Analyze macro impact using XP projections
+  - id: advisor
+    type: llm
+    name: AdvisorRecommendations
+    description: Generate buy/sell/hold recommendations respecting risk profile
+  - id: format
+    type: llm
+    name: FormatLetter
+    description: Format final letter in Portuguese, 2 pages max
+edges:
+  - from: ingest
+    to: quant
+  - from: quant
+    to: research
+  - from: research
+    to: advisor
+  - from: advisor
+    to: format
+inputs:
+  client_data: app/inputs/client_data.json
+  macro_data: app/inputs/macro_data.json
+outputs:
+  final_letter_md: app/simulated_rivet_output.md
+  final_letter_pdf: app/simulated_rivet_output.pdf

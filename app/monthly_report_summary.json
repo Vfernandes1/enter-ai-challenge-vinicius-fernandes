@@ -1,0 +1,65 @@
+{
+  "client_name": "Albert da Silva",
+  "portfolio_value": 312186.19999999995,
+  "monthly_return": 0.09253425700111025,
+  "benchmark_cdi": 0.037,
+  "benchmark_ipca": 0.061,
+  "class_returns": {
+    "Ações": {
+      "value": 60311.79,
+      "weighted_return": -12857.682402,
+      "share": 0.19319172340097035,
+      "return": -0.21318688107250672
+    },
+    "Fundos": {
+      "value": 211395.65999999995,
+      "weighted_return": 27618.516714999998,
+      "share": 0.6771460750026747,
+      "return": 0.13064845661921348
+    },
+    "Renda Fixa": {
+      "value": 40478.75,
+      "weighted_return": 14127.08375,
+      "share": 0.12966220159635503,
+      "return": 0.349
+    }
+  },
+  "risk_alignment": {
+    "score": 94.6,
+    "note": "A alocação está consistentemente alinhada com um perfil moderado.",
+    "details": []
+  },
+  "macro_impact": {
+    "summary": "O cenário XP indica juros elevados, inflação persistente e crescimento econômico moderado.",
+    "risks": [
+      "Ativos de renda variável com alavancagem ou que dependem de redução de juros podem sofrer volatilidade adicional.",
+      "O crescimento econômico moderado reduz o apetite por risco e pode limitar a recuperação de ações cíclicas.",
+      "Posições de ações mais voláteis como LREN3, ARZZ3, HAPV3 exigem atenção extra em um cenário de juros altos."
+    ],
+    "opportunities": [
+      "A taxa Selic alta fortalece a renda fixa de qualidade e pressiona o crédito corporativo mais arriscado.",
+      "Empresas com receitas em dólar ou fluxos de exportação podem se beneficiar do câmbio mais elevado."
+    ],
+    "official_projection": {
+      "cpi_2025": 6.1,
+      "selic_terminal_2025": 15.5,
+      "pib_2025": 2.0,
+      "usd_2025": 6.2,
+      "scenario": "Economia em desaceleração com inflação pressionada e juros altos. Dívida pública em aceleração e ambiente global de inflação persistente nos EUA.",
+      "guidelines": [
+        "Basear recomendações estritamente nas projeções de fevereiro de 2025 da XP.",
+        "Não utilizar cortes de juros nos EUA nem previsões de Selic abaixo de 15,50%.",
+        "Manter foco em produtos autorizados para perfil moderado: ações consolidadas, renda fixa de qualidade e fundos com gestão disciplinada."
+      ]
+    }
+  },
+  "recommendations": [
+    "Manter a alocação principal em fundos e renda fixa, ajustando posições de maior risco em ações.",
+    "Considerar reduzir exposição em LREN3 (Lojas Renner) por seu desempenho fraco e maior volatilidade.",
+    "Aproveitar parte da alta de MRFG3 para rebalancear e preservar ganhos, mantendo exposição moderada.",
+    "Considerar reduzir exposição em ARZZ3 (Arezzo&Co) por seu desempenho fraco e maior volatilidade.",
+    "Considerar reduzir exposição em HAPV3 (Hapvida) por seu desempenho fraco e maior volatilidade.",
+    "Reforçar a exposição em renda fixa de alta qualidade, especialmente títulos indexados ao CDI ou crédito com rating BB+ ou superior.",
+    "Evitar alterações bruscas de curto prazo e focar no médio prazo, como exige o perfil moderado."
+  ]
+}
