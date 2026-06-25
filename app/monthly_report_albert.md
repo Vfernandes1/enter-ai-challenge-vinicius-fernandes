@@ -8,6 +8,17 @@ Segue o relatório mensal da sua carteira. Nosso objetivo é traduzir o desempen
 Sua carteira apresentou uma rentabilidade estimada de 9.25% no último mês, contra um CDI de 3.70% e inflação referência de 6.10%.
 O valor de mercado estimado da carteira é de R$ 312186.20.
 
+Desempenho por classe de ativo:
+- Ações: 19.3% da carteira com retorno médio de -21.32%.
+- Fundos: 67.7% da carteira com retorno médio de 13.06%.
+- Renda Fixa: 13.0% da carteira com retorno médio de 34.90%.
+
+Principais contribuições ao desempenho:
+- MRFG3 (Marfrig): retorno de 43.50%.
+- CDB Banco C6 (CDB BANCO C6 CONSIGNADO S.A. - SET/2024): retorno de 34.90%.
+- HAPV3 (Hapvida): retorno de -74.58%.
+- LREN3 (Lojas Renner): retorno de -41.70%.
+
 2. Como o cenário macro impacta sua carteira
 O cenário XP aponta Selic em 15,50%, IPCA em 6,1% e câmbio projetado de R$ 6,20 para 2025.
 Resumo: O cenário XP indica juros elevados, inflação persistente e crescimento econômico moderado.
@@ -29,9 +40,13 @@ Com base no perfil moderado, o foco é estabilidade e preservação do poder de 
 - Reforçar a exposição em renda fixa de alta qualidade, especialmente títulos indexados ao CDI ou crédito com rating BB+ ou superior.
 - Evitar alterações bruscas de curto prazo e focar no médio prazo, como exige o perfil moderado.
 
+4. Avaliação de alinhamento com o perfil de risco
+Score de alinhamento: 94.6/100.
+A alocação está consistentemente alinhada com um perfil moderado.
+
 4. Observações finais
 Recomendamos revisar essas posições no próximo ciclo mensal e validar quaisquer movimentações com seu assessor antes de executar ordens.
 
 Atenciosamente,
-Vinicius F
+Vinícius F.
 Assessor Financeiro XP

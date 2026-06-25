@@ -1,0 +1,16 @@
+section,key,name,value,metric
+class_breakdown,Ações,,60311.79,share=0.1932;return=-0.2132
+class_breakdown,Fundos,,211395.66,share=0.6771;return=0.1306
+class_breakdown,Renda Fixa,,40478.75,share=0.1297;return=0.3490
+,,,,
+top_holding,ticker,name,current_value,reported_return
+top_holding,Riza Lotus Plus,Riza Lotus Plus Advisory FIC FIRF REF DI CP,96178.73,0.1551
+top_holding,Brave I,Brave I FIC FIM CP,72567.43,0.1908
+top_holding,CDB Banco C6,CDB BANCO C6 CONSIGNADO S.A. - SET/2024,40478.75,0.3490
+top_holding,LREN3,Lojas Renner,27812.04,-0.4170
+top_holding,MRFG3,Marfrig,15432.89,0.4350
+top_holding,Truxt Long Bias,Truxt Long Bias Advisory FIC FIM,12522.05,-0.1213
+top_holding,Ibiuna Hedge ST,Ibiuna Hedge ST Advisory FIC FIM,11601.02,0.3374
+top_holding,ARZZ3,Arezzo&Co,10923.72,-0.3105
+top_holding,STK Long Biased,STK Long Biased FIC FIA,9745.97,-0.1451
+top_holding,Constellation,Constellation Institucional Advisory FIC FIA,8475.02,-0.2566

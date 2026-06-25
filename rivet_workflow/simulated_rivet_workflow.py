@@ -77,6 +77,12 @@ def formatter_node(context, prompt):
     engine.calculate_monthly_profitability()
     engine.evaluate_macro_impact()
     engine.generate_recommendations()
+    # Ensure risk alignment is assessed so the formatter can include the score/note
+    try:
+        engine.assess_risk_alignment()
+    except Exception:
+        # fall back silently if the method is missing in older engine versions
+        pass
     letter = engine.build_letter()
     # Also write a markdown file for downstream systems
     out_path = BASE / 'simulated_rivet_output.md'

@@ -261,6 +261,37 @@ class PortfolioEngine:
             json.dump(summary, f, ensure_ascii=False, indent=2)
         return output_path
 
+    def export_csv(self, output_path):
+        """Export class breakdown and top holdings to CSV for downstream systems."""
+        import csv
+
+        if "class_returns" not in self.client_data:
+            self.calculate_monthly_profitability()
+
+        class_rows = []
+        for classe, data in self.client_data["class_returns"].items():
+            class_rows.append({
+                "class": classe,
+                "share": data.get("share", 0.0),
+                "return": data.get("return", 0.0),
+                "value": data.get("value", 0.0),
+            })
+
+        top_holdings = sorted(self.client_data.get("holdings", []), key=lambda x: x.get("current_value", 0), reverse=True)[:10]
+
+        with open(output_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["section", "key", "name", "value", "metric"])
+            for r in class_rows:
+                writer.writerow(["class_breakdown", r["class"], "", f"{r['value']:.2f}", f"share={r['share']:.4f};return={r['return']:.4f}"])
+
+            writer.writerow(["", "", "", "", ""])
+            writer.writerow(["top_holding", "ticker", "name", "current_value", "reported_return"])
+            for h in top_holdings:
+                writer.writerow(["top_holding", h.get("ticker"), h.get("name"), f"{h.get('current_value',0):.2f}", f"{h.get('reported_return',0):.4f}"])
+
+        return output_path
+
 
 if __name__ == "__main__":
     engine = PortfolioEngine(BASE_DIR / "inputs" / "client_data.json", BASE_DIR / "inputs" / "macro_data.json")

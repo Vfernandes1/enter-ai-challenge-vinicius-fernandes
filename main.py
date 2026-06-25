@@ -15,9 +15,11 @@ def main_workflow():
     md_path = engine.export_markdown(Path("app/monthly_report_albert.md"))
     pdf_path = engine.export_pdf(Path("app/monthly_report_albert.pdf"))
     summary_path = engine.export_summary(Path("app/monthly_report_summary.json"))
+    csv_path = engine.export_csv(Path("app/monthly_report_albert.csv"))
     print(f"Relatório gerado em: {md_path}")
     print(f"PDF gerado em: {pdf_path}")
     print(f"Resumo JSON gerado em: {summary_path}")
+    print(f"CSV gerado em: {csv_path}")
     return md_path
 
 if __name__ == "__main__":
