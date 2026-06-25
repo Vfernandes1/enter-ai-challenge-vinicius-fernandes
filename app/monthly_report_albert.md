@@ -44,7 +44,7 @@ Com base no perfil moderado, o foco é estabilidade e preservação do poder de 
 Score de alinhamento: 94.6/100.
 A alocação está consistentemente alinhada com um perfil moderado.
 
-4. Observações finais
+5. Observações finais
 Recomendamos revisar essas posições no próximo ciclo mensal e validar quaisquer movimentações com seu assessor antes de executar ordens.
 
 Atenciosamente,
